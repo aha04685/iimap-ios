@@ -18,6 +18,8 @@
 		0A8C11542104242200D705C2 /* InitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C11532104242200D705C2 /* InitData.swift */; };
 		0A8C115621042E7300D705C2 /* LoadingLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C115521042E7300D705C2 /* LoadingLogic.swift */; };
 		0A8C11582104468400D705C2 /* GlobalUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C11572104468400D705C2 /* GlobalUtility.swift */; };
+		0A8C115C210452BF00D705C2 /* FaceBookInfoWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C115B210452BF00D705C2 /* FaceBookInfoWindowViewController.swift */; };
+		0A8C115D210453A200D705C2 /* FaceBookInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8C115F210453A200D705C2 /* FaceBookInfoWindow.xib */; };
 		2C0B29F1FF7E13C459B8E1E0 /* Pods_iiMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0CC956BF4FEBCD57AE1624 /* Pods_iiMapUITests.framework */; };
 		36952228D474C1890FE6283F /* Pods_iiMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2F767207571711BBC29883 /* Pods_iiMap.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		0A8C11532104242200D705C2 /* InitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitData.swift; sourceTree = "<group>"; };
 		0A8C115521042E7300D705C2 /* LoadingLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLogic.swift; sourceTree = "<group>"; };
 		0A8C11572104468400D705C2 /* GlobalUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUtility.swift; sourceTree = "<group>"; };
+		0A8C115B210452BF00D705C2 /* FaceBookInfoWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookInfoWindowViewController.swift; sourceTree = "<group>"; };
+		0A8C115E210453A200D705C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FaceBookInfoWindow.xib; sourceTree = "<group>"; };
 		0F2F767207571711BBC29883 /* Pods_iiMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iiMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B794A1F130B0E7A5AFED36 /* Pods-iiMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iiMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-iiMap/Pods-iiMap.release.xcconfig"; sourceTree = "<group>"; };
 		6E0CC956BF4FEBCD57AE1624 /* Pods_iiMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iiMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,7 @@
 				0A8C11352103181900D705C2 /* LaunchScreen.storyboard */,
 				0A8C11382103181900D705C2 /* Info.plist */,
 				0A8C11572104468400D705C2 /* GlobalUtility.swift */,
+				0A8C115F210453A200D705C2 /* FaceBookInfoWindow.xib */,
 			);
 			path = iiMap;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			children = (
 				0A8C112E2103181700D705C2 /* LoginViewController.swift */,
 				0A8C1150210328DB00D705C2 /* MainViewController.swift */,
+				0A8C115B210452BF00D705C2 /* FaceBookInfoWindowViewController.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8C11372103181900D705C2 /* LaunchScreen.storyboard in Resources */,
+				0A8C115D210453A200D705C2 /* FaceBookInfoWindow.xib in Resources */,
 				0A8C11342103181900D705C2 /* Assets.xcassets in Resources */,
 				0A8C11322103181700D705C2 /* Main.storyboard in Resources */,
 			);
@@ -334,6 +341,7 @@
 				0A8C11542104242200D705C2 /* InitData.swift in Sources */,
 				0A8C114E210322DF00D705C2 /* Color.swift in Sources */,
 				0A8C11582104468400D705C2 /* GlobalUtility.swift in Sources */,
+				0A8C115C210452BF00D705C2 /* FaceBookInfoWindowViewController.swift in Sources */,
 				0A8C1151210328DB00D705C2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +379,14 @@
 				0A8C11362103181900D705C2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8C115F210453A200D705C2 /* FaceBookInfoWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8C115E210453A200D705C2 /* Base */,
+			);
+			name = FaceBookInfoWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
